@@ -1,0 +1,8 @@
+.side-image{
+    width: 100%;
+}
+
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,171,0.8242647400757178) 30%, rgba(252,176,69,1) 100%);
+}
