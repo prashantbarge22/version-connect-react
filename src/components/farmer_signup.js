@@ -1,46 +1,70 @@
 import "../css/farmer_signup_page.css"
+import services from "../services/services";
 function Farmer_SignUp_Page(){
+
+   const onSubmit= (props)=>{
+       props.preventDefault();
+       const farmer ={
+           firstname:props.target.firstname.value,
+           lastname:props.target.lastname.value,
+           email:props.target.email.value,
+           phone:props.target.phone.value,
+           city:props.target.city.value,
+           district:props.target.district.value,
+           state:props.target.state.value,
+           aadharnumber:props.target.aadhar.value,
+           password:props.target.password.value
+       }
+
+       services.farmerSignUp(farmer).then(result=>{
+           console.log(result);
+       }).catch(err=>{
+           console.log(err);
+       })
+    
+    }
+
     return(
         <div className="container-fluid background">
           <div className="box-double">
                 <div className="container box-1">
-                <form>
+                <form className="form" onSubmit={(props)=>{onSubmit(props)}}>
                 <div className="name">
-                <div class="mb-3">
-                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First-Name"/>
+                <div className="mb-3">
+                        <input type="text" className="form-control" id="firstname" name="firstname" placeholder="First-Name"/>
                 </div>
-                <div class="mb-3">
-                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last-Name"/>
+                <div className="mb-3">
+                        <input type="text" className="form-control" id="lastname" name="lastname" placeholder="Last-Name"/>
                 </div>
                 </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="E-mail"/>
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <div className="mb-3">
+                        <input type="email" className="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="E-mail"/>
+                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                     </div>
-                    <div class="mb-3">
-                        <input type="number" class="form-control" id="phone" name="phone" placeholder="Mobile Number"/>
+                    <div className="mb-3">
+                        <input type="number" className="form-control" id="phone" name="phone" placeholder="Mobile Number"/>
                     </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="aadharno." name="aadhar" placeholder="Aadhar Number"/>
+                    <div className="mb-3">
+                        <input type="text" className="form-control" id="aadharno." name="aadhar" placeholder="Aadhar Number"/>
                     </div>
                     <div className="location">
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="state" name="state" placeholder="State"/>
+                    <div className="mb-3">
+                        <input type="text" className="form-control" id="state" name="state" placeholder="State"/>
                     </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="district" name="district" placeholder="District" />
+                    <div className="mb-3">
+                        <input type="text" className="form-control" id="district" name="district" placeholder="District" />
                     </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="City" name="City" placeholder="City" />
+                    <div className="mb-3">
+                        <input type="text" className="form-control" id="city" name="city" placeholder="city" />
                     </div>
                     </div>
-                    <div class="mb-3">
-                        <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password"/>
+                    <div className="mb-3">
+                        <input type="password" autoComplete="false" className="form-control" id="exampleInputPassword1" name="password" placeholder="Password"/>
                     </div>
-                    <div class="mb-3">
-                        <input type="password" class="form-control" id="confirmpwd" name="confirmpwd" placeholder="Confirm-Password"/>
+                    <div className="mb-3">
+                        <input type="password" autoComplete="false" className="form-control" id="confirmpwd" name="confirmpwd" placeholder="Confirm-Password"/>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-primary">Submit</button>
                     </form>
                 </div>
                 <div className="box-2"></div>
