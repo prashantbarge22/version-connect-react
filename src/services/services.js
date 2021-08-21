@@ -9,3 +9,7 @@ exports.fetchAllUser = () =>{
 exports.farmerSignUp = (data)=>{
    return axios.post("signin",data);
 }
+
+exports.farmerLogin = (data)=>{
+   return axios.post("farmer-login",data);
+}

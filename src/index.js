@@ -8,7 +8,8 @@ import {BrowserRouter as Router,
 } from "react-router-dom";
 
 import Welcome from "./components/welcome"
-
+import FarmerLogin from "./components/farmer_login"
+import FarmerHome from "./components/farmer_home";
 
 ReactDOM.render(
   <Router>
@@ -19,6 +20,12 @@ ReactDOM.render(
       </Route>
       <Route path="/farmer/signup" exact>
         <FarmerSignUp></FarmerSignUp>
+      </Route>
+      <Route path="/farmer/login" exact>
+       <FarmerLogin></FarmerLogin>
+      </Route>
+      <Route path="/farmer" exact>
+      <FarmerHome></FarmerHome>
       </Route>
     </Switch>
   </React.StrictMode>

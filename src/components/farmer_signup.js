@@ -1,6 +1,9 @@
+import { useHistory } from "react-router-dom";
 import "../css/farmer_signup_page.css"
 import services from "../services/services";
 function Farmer_SignUp_Page(){
+
+    let history = useHistory();
 
    const onSubmit= (props)=>{
        props.preventDefault();
@@ -15,13 +18,15 @@ function Farmer_SignUp_Page(){
            aadharnumber:props.target.aadhar.value,
            password:props.target.password.value
        }
-
        services.farmerSignUp(farmer).then(result=>{
-           console.log(result);
+          if(result.data.error){
+              alert(result.data.data);
+          }else{
+              history.push("/farmer/login")
+          }
        }).catch(err=>{
            console.log(err);
        })
-    
     }
 
     return(
