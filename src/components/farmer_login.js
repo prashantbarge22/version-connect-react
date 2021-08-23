@@ -22,7 +22,7 @@ function FarmerLogin(){
     }
 
     return(
-        <div className="container-fluid">
+        <div className="container-fluid box">
             <div className="login-form">
             <form onSubmit={(e)=>{login(e)}}>
             <div className="mb-3">
