@@ -7,3 +7,12 @@
     width: 100%;
     height: 40vh;
 }
+
+.advertisment{
+    display: flex;
+   
+}
+
+.card{
+    margin: 5%;
+}
