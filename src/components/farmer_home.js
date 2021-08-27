@@ -1,5 +1,6 @@
 import Navbar from "./farmer_navbar"
 import "../css/farmer_home.css"
+import Farmerfooter from "./farmer_footer"
 function FarmerHome(){
     return(
         <div>
@@ -57,6 +58,7 @@ function FarmerHome(){
             </div>
             </div>
             </div>
+            <Farmerfooter></Farmerfooter>
             
            </div>
         </div>
