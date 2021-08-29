@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;   
+   }
+   
+   .Cbackground{
+       background-color: blue;
+       height: 100vh;
+   }
+   
+   .Cbox-double{
+       position: absolute;
+       margin-top: 5%;
+       margin-left: 9% ;
+       background-color: white;
+       width: 80%;
+       height: 80vh;
+       display:flex;
+   }
+   
+   .Cbox-1{
+       padding-top: 10px;
+       width: 50%;
+       height: 100%;
+       background-color: rgb(255,255,255);
+       overflow: hidden;
+   }
+   
+   .Cbox-2{
+       width: 50%;
+       height: 100%;
+       background-color: rgb(109, 141, 230);
+   }
+   
+  
+   
+   .Cname{
+       display: flex;
+   }
+   
+   

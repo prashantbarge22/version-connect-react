@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import FarmerSignUp from "./components/farmer_signup" 
+import CompanySignUp from "./components/company_signup" 
 import {BrowserRouter as Router,
   Switch,
   Route,
@@ -10,6 +11,8 @@ import {BrowserRouter as Router,
 import Welcome from "./components/welcome"
 import FarmerLogin from "./components/farmer_login"
 import FarmerHome from "./components/farmer_home";
+
+
 
 ReactDOM.render(
   <Router>
@@ -20,6 +23,9 @@ ReactDOM.render(
       </Route>
       <Route path="/farmer/signup" exact>
         <FarmerSignUp></FarmerSignUp>
+      </Route>
+      <Route path="/company/signup" exact>
+        <CompanySignUp></CompanySignUp>
       </Route>
       <Route path="/farmer/login" exact>
        <FarmerLogin></FarmerLogin>
