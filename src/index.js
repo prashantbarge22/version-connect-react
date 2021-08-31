@@ -10,7 +10,9 @@ import {BrowserRouter as Router,
 
 import Welcome from "./components/welcome"
 import FarmerLogin from "./components/farmer_login"
-import FarmerHome from "./components/farmer_home";
+import FarmerHome from "./components/farmer_home"
+import CompanyLogin from "./components/company_login";
+
 
 
 
@@ -32,6 +34,9 @@ ReactDOM.render(
       </Route>
       <Route path="/farmer" exact>
       <FarmerHome></FarmerHome>
+      </Route>
+      <Route path="/company/login" exact>
+       <CompanyLogin></CompanyLogin>
       </Route>
     </Switch>
   </React.StrictMode>
