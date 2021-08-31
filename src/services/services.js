@@ -13,3 +13,7 @@ exports.farmerSignUp = (data)=>{
 exports.farmerLogin = (data)=>{
    return axios.post("farmer-login",data);
 }
+
+exports.companyLogin = (data)=>{
+   return axios.post("company-login",data);
+}

@@ -13,6 +13,14 @@ function Welcome(){
             <div>
             <Link to="/company/signup">Company SIgnup</Link>
             </div>
+
+            <div>
+                <Link to ="/company/login">Company LOgin</Link>
+            </div>
+
+            <div>
+                <Link to="/farmer/login">Farmer LOgin</Link>
+            </div>
             
             
         </div>
