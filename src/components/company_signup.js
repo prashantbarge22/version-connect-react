@@ -61,7 +61,7 @@ function Company_SignUp_Page(){
                     </div>
 
 
-                    <div class="mb-3">
+                    <div className="mb-3">
                              <input id="inputGroupFile01" type="file" className="custom-file-input" />
                               <label className="custom-file-label" htmlfor="inputGroupFile01">Choose file</label>
                     </div>

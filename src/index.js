@@ -29,6 +29,8 @@ ReactDOM.render(
       <Route path="/company/signup" exact>
         <CompanySignUp></CompanySignUp>
       </Route>
+
+    
       <Route path="/farmer/login" exact>
        <FarmerLogin></FarmerLogin>
       </Route>

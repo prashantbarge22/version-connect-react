@@ -22,8 +22,8 @@ function CompanyLogin(){
     }
 
     return(
-        <div className="container-fluid box">
-            <div className="login-form">
+        <div className="container-fluid cbox1">
+            <div className="clogin-form">
             <form onSubmit={(e)=>{login(e)}}>
             <div className="mb-3">
                 <label htmlfor="exampleInputEmail1" className="form-label">Email address</label>
