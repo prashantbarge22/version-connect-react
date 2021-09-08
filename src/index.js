@@ -12,6 +12,7 @@ import Welcome from "./components/welcome"
 import FarmerLogin from "./components/farmer_login"
 import FarmerHome from "./components/farmer_home"
 import CompanyLogin from "./components/company_login";
+import CompanyItems from "./components/company_items";
 
 
 
@@ -28,6 +29,10 @@ ReactDOM.render(
       </Route>
       <Route path="/company/signup" exact>
         <CompanySignUp></CompanySignUp>
+      </Route>
+
+      <Route path="/company" exact>
+        <CompanyItems></CompanyItems>
       </Route>
 
     
