@@ -1,6 +1,8 @@
 import Compnavbar from "./company_navbar"
-import "./footerstyles"
+
+import "../css/company_home.css"
 import Companyfooter from "./company_footer"
+import "./footerstyles"
 function CompanyHome(){
     return(
         <div>
@@ -14,21 +16,21 @@ function CompanyHome(){
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRml7dwgCrlRdJq2_6tmXAiRwWpoWFfkrjTA&usqp=CAU" class="d-block w-10" alt="..."/>
+                <img src="https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-10" alt="..."/>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRml7dwgCrlRdJq2_6tmXAiRwWpoWFfkrjTA&usqp=CAU" class="d-block w-10" alt="..."/>
+                <img src="https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-10" alt="..."/>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRml7dwgCrlRdJq2_6tmXAiRwWpoWFfkrjTA&usqp=CAU" class="d-block w-10" alt="..."/>
+                <img src="https://images.pexels.com/photos/4207906/pexels-photo-4207906.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="d-block w-10" alt="..."/>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
@@ -52,15 +54,17 @@ function CompanyHome(){
             </div>
             </div>
             <div class="card" style={{width:"20%"}} >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR9fj2VgrfiDC5LL1QiaqIDYow-a5SdY-z0Q&usqp=CAU" class="card-img-top" alt="..."/>
+            <img src="https://images.pexels.com/photos/4207907/pexels-photo-4207907.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="..."/>
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
             </div>
+           
+           
+           
             <Companyfooter></Companyfooter>
-            
-           </div>
+             </div>
         </div>
     )
 

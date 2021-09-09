@@ -12,16 +12,16 @@ function Compnavbar(){
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active link-name" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
+          <a class="nav-link link-name" href="#">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Partnerships</a>
+          <a class="nav-link link-name" href="#">Partnerships</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link  link-name dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Inventory
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
