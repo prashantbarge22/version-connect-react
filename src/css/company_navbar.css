@@ -1,7 +1,18 @@
 .brand-name{
-    background-color: rgb(170, 81, 115);
+    background-color: rgb(5, 199, 21);
     border-radius: 12px;
     padding: 6px;
-    box-shadow: 2px 2px;
-    height: 100;
+    box-shadow: 3px 3px;
+    height: 175;
+    font-family: Times New Roman;
+    font-weight: bold;
+    
+
+ }
+ .link-name{
+     border: rgba(46, 32, 1, 0.034);
+     font-style: italic;
+     font-display: fallback;
+     font-weight: bold;
+     
  }
