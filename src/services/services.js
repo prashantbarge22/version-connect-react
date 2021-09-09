@@ -18,6 +18,3 @@ exports.companyLogin = (data)=>{
    return axios.post("company-login",data);
 }
 
-exports.companyItems = (data)=>{
-   return axios.post("company-items" , data);
-}
