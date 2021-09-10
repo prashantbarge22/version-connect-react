@@ -7,17 +7,30 @@ function Company_SignUp_Page(){
 
    const onSubmit= (props)=>{
        props.preventDefault();
-       const company ={
-           user_name:props.target.user_name.value,
-           company_name:props.target.company_name.value,
-           email:props.target.email.value,
-           phone:props.target.phone.value,
-           company_registration:props.target.company_registration.value,
-           located_based:props.target.located_based.value,
-           password:props.target.password.value,
+    const formData = new FormData();
+    formData.append("user_name",props.target.user_name.value);
+    formData.append("company_name",props.target.company_name.value);
+    formData.append("email",props.target.email.value);
+    formData.append("phone",props.target.phone.value);
+    formData.append("company_registration",props.target.company_registration.value);
+    formData.append("located_based",props.target.located_based.value);
+    formData.append("password",props.target.password.value);
+    formData.append("file",props.target.file.files[0]);
 
-       }
-       services.companySignUp(company).then(result=>{
+    //    const company ={
+    //        user_name:props.target.user_name.value,
+    //        company_name:props.target.company_name.value,
+    //        email:props.target.email.value,
+    //        phone:props.target.phone.value,
+    //        company_registration:props.target.company_registration.value,
+    //        located_based:props.target.located_based.value,
+    //        password:props.target.password.value,
+    //        file:props.target.file.files[0]
+    //    }
+
+       console.log(formData);
+       services.companySignUp(formData).then(result=>{
+           console.log(result);
           if(result.data.error){
               alert(result.data.data);
           }else{
@@ -62,7 +75,7 @@ function Company_SignUp_Page(){
 
 
                     <div className="mb-3">
-                             <input id="inputGroupFile01" type="file" className="custom-file-input" />
+                             <input id="inputGroupFile01" type="file" id="file" name="file" className="custom-file-input" />
                               <label className="custom-file-label" htmlfor="inputGroupFile01">Choose file</label>
                     </div>
 

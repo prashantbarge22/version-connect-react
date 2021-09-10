@@ -18,3 +18,7 @@ exports.companyLogin = (data)=>{
    return axios.post("company-login",data);
 }
 
+exports.companySignUp = (data)=>{
+   return axios.post("company-signin",data);
+}
+
