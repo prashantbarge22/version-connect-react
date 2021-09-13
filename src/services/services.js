@@ -5,6 +5,9 @@ const axios = instance.default;
 exports.fetchAllUser = () =>{
    return axios.get("fetchalluser");
 }
+exports.fetchAllCompanies = () =>{
+   return axios.get("fetchallcompanies");
+}
 
 exports.farmerSignUp = (data)=>{
    return axios.post("signin",data);
