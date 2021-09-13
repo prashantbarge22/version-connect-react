@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom";
 import "../css/company_login.css"
-import service, { companyLogin } from "../services/services"
+import service from "../services/services"
 function CompanyLogin(){
 
     let history = useHistory();
