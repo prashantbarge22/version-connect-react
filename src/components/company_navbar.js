@@ -31,6 +31,9 @@ function Compnavbar(){
           </ul>
         </li>
       </ul>
+      <div>
+        <button className="btn btn-danger" onClick={()=>{console.log("i am clicked")}}>Logout</button>
+      </div>
     </div>
   </div>
 </nav>
