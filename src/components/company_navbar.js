@@ -1,11 +1,22 @@
+import { useHistory } from "react-router-dom";
 import "bootstrap/dist/js/bootstrap.bundle"
 import "../css/company_navbar.css"
+
+
 function Compnavbar(){
+  
+    const history = useHistory();
+  
+    function handleClick() {
+      history.push("/companyty");
+    }
+  
     return(
-        <div className="">
-           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="navbar">
+           <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid">
     <a class="navbar-brand brand-name" href="#">VISION-UPKARAN</a>
+    <img src="vision-upkaran-04.png" alt="image"></img>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,13 +32,16 @@ function Compnavbar(){
           <a class="nav-link link-name" href="#">Partnerships</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link  link-name dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link  link-game dropdown-toggle" href="#" id="navbarDropdownMenuLink"role="button"data-bs-toggle="dropdown" aria-expanded="false">
             Inventory
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
+            <div>
+            <li><a class="dropdown-item" href="#"  onClick={handleClick}>Add item</a> </li>
+            <li><a class="dropdown-item" href="#">Store</a></li>
+            
+            
+            </div>
           </ul>
         </li>
       </ul>
@@ -40,5 +54,6 @@ function Compnavbar(){
         </div>
     )
 }
+
 
 export default Compnavbar;

@@ -1,3 +1,7 @@
+.navbar{
+    
+    background-color: rgba(177, 170, 170, 0.356);
+}
 .brand-name{
     background-color: rgb(5, 199, 21);
     border-radius: 12px;
@@ -11,8 +15,28 @@
  }
  .link-name{
      border: rgba(46, 32, 1, 0.034);
-     font-style: italic;
+     font-style: montserrat;
      font-display: fallback;
-     font-weight: bold;
+     
      
  }
+ .link-game{
+    border: rgba(46, 32, 1, 0.034);
+    font-style: montserrat;
+    font-display: fallback;
+
+ }
+ .dropdown-item{
+     font-style:montserrat;
+     
+
+ }
+ .btn-danger{
+     margin-left: 800px;
+ }
+ .brand-name:hover, .link-name:hover ,.link-game:hover{
+    background-color: rgb(58, 185, 26);
+  }
+  .dropdown-item:hover{
+      background-color:burlywood;
+  }

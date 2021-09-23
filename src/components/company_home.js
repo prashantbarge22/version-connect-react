@@ -7,6 +7,7 @@ function CompanyHome(){
     return(
         <div>
            <Compnavbar/>
+           
            <div className="slide-show">
            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -54,7 +55,7 @@ function CompanyHome(){
             </div>
             </div>
             <div class="card" style={{width:"20%"}} >
-            <img src="https://images.pexels.com/photos/4207907/pexels-photo-4207907.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="..."/>
+            <img src="https://images.pexels.com/photos/4207907/pexels-photo-4207907.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"class="card-img-top" alt="..."/>
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
