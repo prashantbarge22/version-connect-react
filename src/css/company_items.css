@@ -1,21 +1,34 @@
 *{
     padding: 0px;
-    margin: 0px;   
+    margin: 2px; 
+     
    }
+   .bg-img{
+    background-image:url("https://cdn.pixabay.com/photo/2015/05/28/08/01/paper-787650_960_720.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 
 .itm{
     text-align: center;
+    font-style: montserrat;
+    font-size: 2cm;
+    
+    
 }
+
 
 .ibox-double{
     
-    background-color:rgb(82, 184, 128);
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 27% ;
-    
-    width: 45%;
-    height: 80vh;
+    background-color:rgb(211, 207, 205);
+    position: relative;
+    top: 40px; left: 30%;
+    width: 90vh;
+    height: 90vh;
     
 }
 .form-control{
