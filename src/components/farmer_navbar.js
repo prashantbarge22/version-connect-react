@@ -17,9 +17,7 @@ function Navbar(){
         <li class="nav-item">
           <a class="nav-link" href="#">About us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">contact us</a>
-        </li>
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Setting
@@ -31,6 +29,22 @@ function Navbar(){
           </ul>
         </li>
       </ul>
+
+      <a href="#" class="btn1 btn-info btn-lg">
+          <span class="glyphicon glyphicon-log-out"></span> Log out
+        </a>
+
+
+
+        <div class="md-form mt-0">
+  <input class="form-control" type="text" placeholder="Search" aria-label="Search"/>
+</div>
+
+
+
+
+
+
     </div>
   </div>
 </nav>
