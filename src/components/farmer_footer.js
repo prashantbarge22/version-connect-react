@@ -1,5 +1,6 @@
 import "../css/farmer_footer.css"
 
+
 const Farmerfooter = ()=> {
     return (
         <div>
@@ -15,8 +16,8 @@ const Farmerfooter = ()=> {
                             <span> &nbsp; info@visionupkaran.com</span>
                         </div>
 
-                        <div class="social - icons">
-                            
+                        <div className="social - icons">
+                        
                         </div>
 
 

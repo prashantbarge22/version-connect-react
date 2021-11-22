@@ -5,3 +5,19 @@
    box-shadow: 2px 2px;
    height: 100;
 }
+.btn1{
+   background-color: brown;
+   margin-left:800px ;
+
+}
+
+.md-form{
+   margin-left: -750px;
+   width:300px;
+   
+}
+
+.container-fluid{
+   background-color:rgb(130, 202, 123);
+   padding:7px;
+}

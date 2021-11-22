@@ -48,13 +48,13 @@ function CompanyHome(){
             </button>
             </div>
             <div className="advertisment">
-            <div class="card" style={{width:"20%"}} >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR9fj2VgrfiDC5LL1QiaqIDYow-a5SdY-z0Q&usqp=CAU" class="card-img-top" alt="..."/>
+            <div class="card" style={{width:"25%" }} >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR9fj2VgrfiDC5LL1QiaqIDYow-a5SdY-z0Q&usqp=CAU" class="card-img-top" alt="..."   />
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
-            <div class="card" style={{width:"20%"}} >
+            <div class="card" style={{width:"350px"}} >
             <img src="https://images.pexels.com/photos/4207907/pexels-photo-4207907.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"class="card-img-top" alt="..."/>
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
