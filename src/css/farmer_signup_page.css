@@ -1,51 +1,164 @@
-*{
- padding: 0px;
- margin: 0px;   
-}
 
-.background{
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHjyTvAEADMMqA1g7P9tQPXfWw6giQDEaLr979pviI3REU3mdXbfCOBAQMSj7SvEQkDw4&usqp=CAU");
-    height: 100vh;
-    width:100%;
-    background-size:cover;
-    background-position:centre;
+   
+  
+  
+ *{
+    padding: 0px;
+    margin: 0px;   
+   }
+   
+   .blk{
+       padding-top: 30px;
+   }
+   .bnm{
+       font-size: 1cm;
+       font-weight: bold;
+   }
+   .man{
+       font-size:7mm;
+       font-weight:bold;
+   }
+   .huhu{
+     background-color:burlywood;
+     height: 150vh;
+     width:100%;
+     background-size:cover;
+     background-position:centre;
+     text-align: center;
+     padding-top: 50px;
+   }
+   /*.background-1{
+     
+     height: 100vh;
+     width:100%;
+     background-size:cover;
+     background-position:centre;
+     }*/
+   
+   
+   
+   
+   .box-134{
     
-}
 
-.box-double{
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 9% ;
-    background-color:white;
-    width: 80%;
-    height: 80vh;
-    display:flex;
-}
-
-.box-1{
-    padding-top: 10px;
-    width: 50%;
+       position:absolute;
+       width:450px;
+       height: 100vh;
+       border-radius: 10px;
+       box-shadow: 0px 10px 50px #555;
+       background-color: #ffffff;
+       padding-top: 30px;
+       padding: 20px 40px;
+       top:45vh;
+       left:77vh;
+       
+     }
+     .button-126 {
+        background-color:white;
+        border: none;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        width:48%;
+        font-size: 16px;
+        margin: 4px 2px;
+        float:left;
+        font-weight: bold;
+        font-size: 6mm;
+        display:flex
+        
+      }
+     .button228{
+        background-color: rgb(247, 247, 247);
+     }
+   
+     
+   
+     .mb-3{
+       
     height: 100%;
-    background-color: grey;
-    overflow: hidden;
-}
-
-.box-2{
-    width: 50%;
-    height: 100%;
-    margin-left: 1em;
-    
-    background-image:url("https://png.pngtree.com/png-clipart/20200701/original/pngtree-farmer-farming-png-image_5397808.jpg");
-    background-position:20% 60%;
-    background-size:98%;
-    
-}
-
-.location{
+     width: 100%;
+     
+     text-align: left;
+     font-size: 15px;
+     padding-left:0px;
+     padding-top: 0px;
+     
+     
+     border:  solid black;
+     border-width: 2px;
+     
+     border-radius: 4px;
+     
+     }
+     .name{
+       height: 100%;
+       width: 100%;
+       
+       
+       font-size: 10px;
+       
+       
+       
+       
+       
+   
+     }
+     .location{
+       height: 100%;
+       width: 100%;
+       outline:none;
+       
+       font-size: 15px;
+        border-radius: 9px;
+   
+     }
+     
+   
+   
+   .location{
+       display:flex;
+   }
+   
+   .name{
+       display: flex;
+   }
+   .input5 {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid ;
+  }
+     
+   .Submit8{
+    width: 100%;
     display: flex;
-}
-
-.name{
-    display: flex;
-}
-
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Submit8 button {
+    background-color: #47a088;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+     
+     
+     
+     
+     
+     
+     
+    
+     
+   
+   
+  

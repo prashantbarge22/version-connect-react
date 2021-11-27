@@ -1,11 +1,16 @@
+import { useHistory } from "react-router-dom";
 import "bootstrap/dist/js/bootstrap.bundle"
 import "../css/farmer_navbar.css"
 function Navbar(){
+  const history = useHistory();
+  function handleClickw(){
+    history.push("/");
+  }
     return(
         <div className="">
            <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand brand-name" href="#">VISION-UPKARAN</a>
+    <a class="navbar-brand brand-name" href="#" onClick={handleClickw}>VISION-UPKARAN</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

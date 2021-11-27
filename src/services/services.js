@@ -28,3 +28,7 @@ exports.companySignUp = (data)=>{
 exports.registerItems = (data)=>{
    return axios.post("register-item",data);
 }
+
+exports.contactUs =(data)=>{
+   return axios.post("contact-us",data);
+}

@@ -14,8 +14,10 @@ import FarmerHome from "./components/farmer_home"
 import CompanyLogin from "./components/company_login";
 import CompanyItems from "./components/company_items";
 import CompanyHome from "./components/company_home";
-
-
+import AboutUs from "./components/about_us";
+import ContactUs from "./components/contact_us";
+import Login from "./components/login";
+import SignUp from "./components/signup";
 
 
 ReactDOM.render(
@@ -35,8 +37,21 @@ ReactDOM.render(
       <Route path="/companyty" exact>
         <CompanyItems></CompanyItems>
       </Route>
+      
       <Route path="/company" exact>
         <CompanyHome></CompanyHome>
+      </Route>
+      <Route path="/aboutus" exact>
+       <AboutUs></AboutUs>
+      </Route>
+      <Route path="/contactus" exact>
+       <ContactUs></ContactUs>
+      </Route>
+      <Route path="/login" exact>
+       <Login></Login>
+      </Route>
+      <Route path="/signup" exact>
+       <SignUp></SignUp>
       </Route>
 
     

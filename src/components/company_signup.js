@@ -43,59 +43,59 @@ function Company_SignUp_Page(){
 
     return(
         <div className="container-fluid Cbackground">
-          <div className="Cbox-double">
-                <div className="container Cbox-1">
-                <form className="form" onSubmit={(props)=>{onSubmit(props)}}>
-                
-                <div className="mb-3">
-                        <input type="text" className="form-control" id="user_name" name="user_name" placeholder="User-name"/>
-                </div>
-                <div className="mb-3">
-                        <input type="text" className="form-control" id="company_name" name="company_name" placeholder="Company-Name"/>
-                </div>
-                
-                    <div className="mb-3">
-                        <input type="email" className="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="E-mail"/>
-                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div className="mb-3">
-                        <input type="number" className="form-control" id="phone" name="phone" placeholder="Mobile Number"/>
-                    </div>
-                    <div className="mb-3">
-                        <input type="text" className="form-control" id="company_registration" name="company_registration" placeholder="Company Registration"/>
-                    </div>
+        <div className="Cbox-double">
+              <div className="container Cbox-1">
+              <form className="form" onSubmit={(props)=>{onSubmit(props)}}>
+              
+              <div className="mb-3">
+                      <input type="text" className="form-control" id="user_name" name="user_name" placeholder="User-name"/>
+              </div>
+              <div className="mb-3">
+                      <input type="text" className="form-control" id="company_name" name="company_name" placeholder="Company-Name"/>
+              </div>
+              
+                  <div className="mb-3">
+                      <input type="email" className="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="E-mail"/>
+                      <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div className="mb-3">
+                      <input type="number" className="form-control" id="phone" name="phone" placeholder="Mobile Number"/>
+                  </div>
+                  <div className="mb-3">
+                      <input type="text" className="form-control" id="company_registration" name="company_registration" placeholder="Company Registration"/>
+                  </div>
 
-                    
-                    
+                  
+                  
 
-                    <div className="mb-3">
-                        <input type="text" className="form-control" id="located_based" name="located_based" placeholder="Location"/>
+                  <div className="mb-3">
+                      <input type="text" className="form-control" id="located_based" name="located_based" placeholder="Location"/>
 
-                    </div>
-
-
-                    <div className="mb-3">
-                             <input id="inputGroupFile01" type="file" id="file" name="file" className="custom-file-input" />
-                              <label className="custom-file-label" htmlfor="inputGroupFile01">Choose file</label>
-                    </div>
-
-                    <div className="mb-3">
-                        <input type="password" autoComplete="false" className="form-control" id="exampleInputPassword1" name="password" placeholder="Password"/>
-                    </div>
-
-                    <div className="mb-3">
-                        <input type="password" autoComplete="false" className="form-control" id="confirmpwd" name="confirmpwd" placeholder="Confirm-Password"/>
-                    </div>
-
-                    
+                  </div>
 
 
-                    <button type="submit" className="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-                <div className="Cbox-2"></div>
-          </div>
+                  <div className="mb-3">
+                           <input id="inputGroupFile01" type="file" id="file" name="file" className="custom-file-input" />
+                            <label className="custom-file-label" htmlfor="inputGroupFile01">Choose file</label>
+                  </div>
+
+                  <div className="mb-3">
+                      <input type="password" autoComplete="false" className="form-control" id="exampleInputPassword1" name="password" placeholder="Password"/>
+                  </div>
+
+                  <div className="mb-3">
+                      <input type="password" autoComplete="false" className="form-control" id="confirmpwd" name="confirmpwd" placeholder="Confirm-Password"/>
+                  </div>
+
+                  
+
+
+                  <button type="submit" className="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+              <div className="Cbox-2"></div>
         </div>
+      </div>
     )
 }
 
