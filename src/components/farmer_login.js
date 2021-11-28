@@ -30,7 +30,7 @@ function FarmerLogin(){
     }
 
     return(<>
-        <Welcomenavbar/>
+        
 
         <div className="wrapper1">
         <div class="blp">
@@ -69,6 +69,10 @@ function FarmerLogin(){
         </div>
         </form>
         </div>
+        <div class="terms">
+            <p>By signing up you agree to our Terms of Service and Privacy Policy
+                </p>
+            </div>
     </div></>
 
     

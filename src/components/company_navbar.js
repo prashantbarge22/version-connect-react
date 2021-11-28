@@ -13,6 +13,9 @@ function Compnavbar(){
     function handleClick() {
       history.push("/aboutus");
     }
+    function handleClickAs() {
+      history.push("/store");
+    }
     function handleClickw(){
       history.push("/");
     }
@@ -45,7 +48,7 @@ function Compnavbar(){
           <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
             <div>
             <li><a class="dropdown-item" href="#"  onClick={handleClickg}>Add item</a> </li>
-            <li><a class="dropdown-item" href="#">Store</a></li>
+            <li><a class="dropdown-item" href="#" onClick={handleClickAs}>Store</a></li>
             
             
             </div>

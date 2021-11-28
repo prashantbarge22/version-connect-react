@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Center website */
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  .card-555{
+    margin: 30px;
+    background-color: #f1f1f1;
+    height: 50%;
+    width:45vh;
+    padding-left:15px;
+    padding-top: 15px;
+}
+  
+  .row-555 {
+    margin: 50px -16px;
+    margin-left: 50px;
+    width: 95%;
+    
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row-555,
+  .row-555 > .column-555 {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column-555 {
+      
+    float: left;
+    width: 30%;
+     /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .row-555:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content555 {
+    background-color: rgb(83, 221, 19);
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show{
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn-555 {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: bisque;
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn-555:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn-555.active {
+    background-color: #666;
+     color: white;
+  }
+  .tere{
+      padding-left:60px;
+      padding-top:30px;
+  }

@@ -65,14 +65,14 @@
     font-weight: lighter;
     
   }
-  
+  .user_name,
   .email,
 .password {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 }
-  
+  .user_name,
   .email,
   .password {
     width: 100%;

@@ -99,4 +99,18 @@
     margin-bottom: 0.25em;
   }
   
-  
+  .blp{
+    padding-top: 30px;
+    text-align: center;
+}
+.bnm{
+    font-size: 1cm;
+    font-weight: bold;
+}
+.man{
+    font-size:7mm;
+    font-weight:bold;
+}
+.terms{
+  padding-top: 30px;
+}
