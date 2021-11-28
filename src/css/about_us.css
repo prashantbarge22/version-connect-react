@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: Arial;
+    
+    
+  }
+  
+  /* Header/Blog Title */
+  .header-50 {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 70%;
+    left: 20px;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 20%;
+    padding-left: 20px;
+    right: 1px;
+    background-color: darkcyan;
+    position:absolute;
+    top:100px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: rgb(255, 253, 253);
+    
+    padding-top: 30px;
+    font: 5mm sans-serif;
+  }
+  
+  /* Add a card effect for articles */
+  .card-PO {
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    right: 50px;
+  }
+  .card-IJ {
+    background-color: rgb(255, 255, 255);
+    width:80vh;
+    padding: 30px;
+    margin-top: 20px;
+    left: 80px;
+   
+  }
+  .hj{
+    font-size: 7mm;
+    color: crimson;
+    font-weight: bold;
+  }
+  .card-tk {
+    
+    padding: 30px;
+    margin-top: 20px;
+    left: 80px;
+    
+   
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  
+  .column {
+    float: left;
+    width: 33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    
+    margin: 8px;
+    height: 100vh;
+    width: 56vh;
+    left: 20px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color:chocolate;
+    color: black;
+  }
+  
+  .container {
+    bottom: 0;
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after ,.box::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 1cm;
+  
+  }
+  .cat{
+    font-size: 5mm;
+    text-align: left;
+  }
+  .column-2 {
+    width:70%;
+    float: left;
+    
+    background-color:yellow;
+    padding: 10px;
+    font-size: 5mm;
+  }
+  .drtg{
+    text-align: center;
+    font-size: 1cm;
+  }
+  .cintro{
+    
+    
+    text-align: left;
+    
+    color:black;
+    
+    font-weight: bolder;
+    
+  
+  }
+  .poty{
+    font-weight: lighter;
+    color: rgb(153, 136, 37);
+    padding-left: 30px;
+  }
+  
+  .button {
+    border: none;
+    font-size: 7mm;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .snack{
+    font-size: 1cm;
+    font-weight:lighter;
+    text-align: left;
+  }
+  .intro{
+    
+    padding:50px;
+    text-align: left;
+    
+    color:black;
+    width: 100vh;
+    font-weight: bolder;
+    font-size: 1.3cm;
+  
+  }
+  .column-1 {
+    float: left;
+    width: 48%;
+    background-color: cornsilk;
+    padding: 10px;
+    font-size: 5mm;
+  }
+  .streak{
+    font-style: oblique;
+    font-size: 7mm;
+    color: dodgerblue;
+    font-weight: bold;
+  
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .column77 {
+    float: left;
+    width: 24%;
+    padding: 0 10px;
+    display: flex;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row77 {
+    margin: 0 -5px;
+    
+  }
+  .tyu{
+    text-align: center;
+    color:rgb(173, 55, 0);
+    font-size: 7mm;
+  }
+  
+  /* Clear floats after the columns */
+  .row77:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card77 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width:40vh;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column77 {
+      width: 100%;
+      display: flex;
+      margin-bottom: 20px;
+    }
+  }

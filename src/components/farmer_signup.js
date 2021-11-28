@@ -1,10 +1,20 @@
+
+import Welcomenavbar from "./welcome_navbar";
 import { useHistory } from "react-router-dom";
 import "../css/farmer_signup_page.css"
 import services from "../services/services";
 function Farmer_SignUp_Page(){
 
     let history = useHistory();
+    function handleClicklk() {
+        history.push("/farmer/signup");
+      }
+      function handleClickd() {
+        history.push("/farmer/login");
+      }
 
+
+  
    const onSubmit= (props)=>{
        props.preventDefault();
        const farmer ={
@@ -29,22 +39,36 @@ function Farmer_SignUp_Page(){
        })
     }
 
-    return(
-        <div className="container-fluid background">
+    return(<>
+        <Welcomenavbar/>
+        <div className="huhu">
+        <div class="blk">
+            <p class="bnm">Vision Upkaran</p>
+            <p class="man">For Farmers</p>
+            <p>Rent machinary and tools.</p>
+            </div>
           <div className="box-double">
-                <div className="container box-1">
+          
+                <div className=" box-134">
+                <div class="god">
+                <button class="button-126 button222" onClick={handleClicklk}>Sign Up</button>
+                <button class="button-126 button228" onClick={handleClickd}>Log In</button>
+                </div>
+              
                 <form className="form" onSubmit={(props)=>{onSubmit(props)}}>
                 <div className="name">
                 <div className="mb-3">
-                        <input type="text" className="form-control" id="firstname" name="firstname" placeholder="First-Name"/>
+                      
+                        <input type="text"  id="firstname" name="firstname" placeholder="First-Name"/>
                 </div>
-                <div className="mb-3">
-                        <input type="text" className="form-control" id="lastname" name="lastname" placeholder="Last-Name"/>
+               <div className="mb-3">
+                        
+                        <input type="text"  id="lastname" name="lastname" placeholder="Last-Name"/>
                 </div>
                 </div>
                     <div className="mb-3">
-                        <input type="email" className="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="E-mail"/>
-                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+                        <input type="email" className="form-control" id="exampleInputEmail1" name="email"  placeholder="E-mail"/>
+                        <div id="emailHelp" className="form-text"></div>
                     </div>
                     <div className="mb-3">
                         <input type="number" className="form-control" id="phone" name="phone" placeholder="Mobile Number"/>
@@ -69,12 +93,15 @@ function Farmer_SignUp_Page(){
                     <div className="mb-3">
                         <input type="password" autoComplete="false" className="form-control" id="confirmpwd" name="confirmpwd" placeholder="Confirm-Password"/>
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <div className="Submit8">
+          <button type="submit">Sign Up</button>
+          
+        </div>
                     </form>
                 </div>
-                <div className="box-2"></div>
+                
           </div>
-        </div>
+        </div></>
     )
 }
 

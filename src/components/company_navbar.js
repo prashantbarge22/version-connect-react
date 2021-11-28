@@ -7,26 +7,33 @@ function Compnavbar(){
   
     const history = useHistory();
   
-    function handleClick() {
+    function handleClickg() {
       history.push("/companyty");
+    }
+    function handleClick() {
+      history.push("/aboutus");
+    }
+    function handleClickw(){
+      history.push("/");
     }
   
     return(
         <div className="navbar">
            <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid">
-    <a class="navbar-brand brand-name" href="#">VISION-UPKARAN</a>
-    <img src="vision-upkaran-04.png" alt="image"></img>
+    <a class="navbar-brand brand-name" href="#" onClick={handleClickw}>VISION-UPKARAN</a>
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active link-name" aria-current="page" href="#">Home</a>
+          <a class="nav-link active link-name" aria-current="page" href="#" >Home</a>
         </li>
+       
         <li class="nav-item">
-          <a class="nav-link link-name" href="#">About us</a>
+          <a class="nav-link link-name" href="#" onClick={handleClick}>About us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link link-name" href="#">Partnerships</a>
@@ -37,7 +44,7 @@ function Compnavbar(){
           </a>
           <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
             <div>
-            <li><a class="dropdown-item" href="#"  onClick={handleClick}>Add item</a> </li>
+            <li><a class="dropdown-item" href="#"  onClick={handleClickg}>Add item</a> </li>
             <li><a class="dropdown-item" href="#">Store</a></li>
             
             
@@ -57,3 +64,4 @@ function Compnavbar(){
 
 
 export default Compnavbar;
+

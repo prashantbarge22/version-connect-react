@@ -1,18 +1,14 @@
-.navbar{
-    
-    background-color: rgba(177, 170, 170, 0.356);
-}
+
 .brand-name{
-    background-color: rgb(5, 199, 21);
+    background-color: rgb(129, 235, 129);
     border-radius: 12px;
     padding: 6px;
-    box-shadow: 3px 3px;
-    height: 175;
-    font-family: Times New Roman;
-    font-weight: bold;
+    box-shadow: 2px 2px;
+    height: 100;
+ }
     
 
- }
+ 
  .link-name{
      border: rgba(46, 32, 1, 0.034);
      font-style: montserrat;

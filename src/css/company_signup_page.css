@@ -2,44 +2,43 @@
     padding: 0px;
     margin: 0px;   
    }
-   
    .Cbackground{
-       background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMO73I60yzjvvB-zrtoR40AcxkELZSLNddrvWn0QtrHbKAVxjuMMQ9driCm-UQ0Ou1QtU&usqp=CAU");
-       height: 100vh;
-   }
-   
-   .Cbox-double{
-       position: absolute;
-       margin-top: 5%;
-       margin-left: 9% ;
-       background-color: white;
-       width: 80%;
-       height: 80vh;
-       display:flex;
-   }
-   
-   .Cbox-1{
-       padding-top: 10px;
-       width: 50%;
-       height: 100%;
-       background-color: lightskyblue;
-       overflow: hidden;
-   }
-   
-   .Cbox-2{
-       width: 50%;
-       height: 100%;
-       margin-left:1em; 
-       background-image:url("https://st2.depositphotos.com/3687485/10581/v/950/depositphotos_105810924-stock-illustration-gardening-tools-icon-flat-graphic.jpg");
-       background-position:20% 60%;
-       background-size:98%;
-   }
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMO73I60yzjvvB-zrtoR40AcxkELZSLNddrvWn0QtrHbKAVxjuMMQ9driCm-UQ0Ou1QtU&usqp=CAU");
+    height: 100vh;
+}
 
-   
-  
-   
-   .Cname{
-       display: flex;
-   }
-   
-   
+.Cbox-double{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 9% ;
+    background-color: white;
+    width: 80%;
+    height: 80vh;
+    display:flex;
+}
+
+.Cbox-1{
+    padding-top: 10px;
+    width: 50%;
+    height: 100%;
+    background-color: lightskyblue;
+    overflow: hidden;
+}
+
+.Cbox-2{
+    width: 50%;
+    height: 100%;
+    margin-left:1em; 
+    background-image:url("https://st2.depositphotos.com/3687485/10581/v/950/depositphotos_105810924-stock-illustration-gardening-tools-icon-flat-graphic.jpg");
+    background-position:20% 60%;
+    background-size:98%;
+}
+
+
+
+
+.Cname{
+    display: flex;
+}
+
+
