@@ -18,6 +18,7 @@ import AboutUs from "./components/about_us";
 import ContactUs from "./components/contact_us";
 import Login from "./components/login";
 import SignUp from "./components/signup";
+import Store from "./components/store";
 
 
 ReactDOM.render(
@@ -53,7 +54,9 @@ ReactDOM.render(
       <Route path="/signup" exact>
        <SignUp></SignUp>
       </Route>
-
+      <Route path="/store" exact>
+       <Store></Store>
+      </Route>
     
       <Route path="/farmer/login" exact>
        <FarmerLogin></FarmerLogin>

@@ -24,7 +24,7 @@ function CompanyLogin(){
     }
 
     return(<>
-        <Welcomenavbar/>
+        
         <div className="wrapper">
         <div class="blp">
             <p class="bnm">Vision Upkaran</p>
@@ -60,6 +60,10 @@ function CompanyLogin(){
               
             </div>
             </form>
+            </div>
+            <div class="terms">
+            <p>By signing up you agree to our Terms of Service and Privacy Policy
+                </p>
             </div>
         </div></>
     )

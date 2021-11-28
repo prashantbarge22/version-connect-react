@@ -26,7 +26,8 @@ function Welcomenavbar(){
         
       <div class="header">
         <div class="das">
-      <a href="#default" class="logo">VISION UPKARAN</a> 
+        <a class=" logo brand-name0" href="#" >VISION-UPKARAN</a>
+      
       </div>
   <div class="header-right">
   
