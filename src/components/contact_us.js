@@ -18,6 +18,7 @@ function ContactUs(){
      lastname:props.target.lastname.value,
      country:props.target.country.value,
      subject:props.target.subject.value,
+     issue:props.target.issue.value,
      
    }
   //title:req.body.title,
@@ -52,7 +53,7 @@ function ContactUs(){
   </div>
   <div class="row">
     <div class="column">
-      <img src="https://images.pexels.com/photos/459301/pexels-photo-459301.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"  style={{height:"60vh"}} style={{width:"80vh"}}/>
+      <img src="https://image.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg"  style5={{height:"60vh"}}style={{width:"80vh"}}/>
     </div>
     <div class="column">
       <form  className="form" onSubmit={(props)=>{onSubmit(props)}}>
@@ -70,7 +71,8 @@ function ContactUs(){
        
           <label for="subject">Subject</label>
                         <input type="text"  id="subject" name="subject" placeholder="Write something here"/>
-               
+         <label for="issue">Issue</label>
+                        <input type="text"  id="issue" name="issue" placeholder="Explain your issue"/>
         <button type="submit" id="submit"className="btn btn-primary">Submit</button>
       </form>
     </div>

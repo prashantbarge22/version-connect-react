@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom";
-import Welcomenavbar from "./welcome_navbar";
+import Signupnavbar from "./signup_navbar";
 import Companyfooter from "./company_footer"
 import "./footerstyles"
 
@@ -17,7 +17,7 @@ function SignUp(){
       }
     return( <>
         <div>
-        <Welcomenavbar/>
+        <Signupnavbar/>
         <div class="container-65">
             <div class="soil">
                 <p>Sign Up</p>

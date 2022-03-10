@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom";
-import "../css/farmer_login.css"
-import service from "../services/services"
+import "../css/farmer_login.css";
+import service from "../services/services";
 import Welcomenavbar from "./welcome_navbar";
 function FarmerLogin(){
     function handleClicklk() {
@@ -34,9 +34,9 @@ function FarmerLogin(){
 
         <div className="wrapper1">
         <div class="blp">
-            <p class="bnm">Vision Upkaran</p>
-            <p class="man">For Farmers</p>
-            <p>Rent machinary and tools.</p>
+            <p class="bnm">SiGx</p>
+            <p class="man">For Alumni</p>
+            <p>Reconnect and Rebuild</p>
             </div>
         <div className="form-wrapper1">
         <div class="god">

@@ -15,10 +15,10 @@ function Welcome(){
 
             <div className = "boxx2">
                 <div className = "text">
-                    VISION 
+                SiGx
                 </div>
-                <div className = "text">
-                    upkaran
+                <div className = "text78">
+                Sirius X-Grad 
                 </div>
 
             </div>

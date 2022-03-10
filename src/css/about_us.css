@@ -1,23 +1,23 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    font-family: Arial;
-    
-    
-  }
-  
-  /* Header/Blog Title */
+
+ .container90{
+  background-image:url("https://i.pinimg.com/564x/b8/0a/d0/b80ad0f8976058aefbd8cc8ee0d52a7f.jpg");
+  background-size:cover;
+  border-image-width: initial;
+  background-repeat:no-repeat ;
+ }
   .header-50 {
+    text-align:start;
+    font-size: 1cm;
+    color: black;
+    font-weight: bold;
+    padding-left: 90px;
+    padding-top: 40px;
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: white;
+    width:50%;
+   
+    
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -34,14 +34,14 @@
     width: 20%;
     padding-left: 20px;
     right: 1px;
-    background-color: darkcyan;
+    
     position:absolute;
     top:100px;
   }
   
   /* Fake image */
   .fakeimg {
-    background-color: rgb(255, 253, 253);
+    background-color: #f1f1f1;;
     
     padding-top: 30px;
     font: 5mm sans-serif;
@@ -49,13 +49,13 @@
   
   /* Add a card effect for articles */
   .card-PO {
-    background-color: white;
-    padding: 30px;
+    background-color:#f1f1f1;
+    padding: 2px;
     margin-top: 20px;
     right: 50px;
   }
   .card-IJ {
-    background-color: rgb(255, 255, 255);
+    background-color: #f1f1f1;
     width:80vh;
     padding: 30px;
     margin-top: 20px;
@@ -63,12 +63,12 @@
    
   }
   .hj{
-    font-size: 7mm;
-    color: crimson;
+    font-size: 10mm;
+    color: rgb(237, 130, 43);
     font-weight: bold;
   }
   .card-tk {
-    
+    background-color: #f1f1f1;
     padding: 30px;
     margin-top: 20px;
     left: 80px;
@@ -129,7 +129,7 @@
     display: table;
   }
   
-  .title {
+  .title5 {
     color: grey;
     font-size: 1cm;
   
@@ -235,6 +235,7 @@
   .tyu{
     text-align: center;
     color:rgb(173, 55, 0);
+    background-color: #f1f1f1;
     font-size: 7mm;
   }
   
@@ -262,3 +263,7 @@
       margin-bottom: 20px;
     }
   }
+  .card-img-top1{
+    height: 30vh;
+    width:40vh;
+}

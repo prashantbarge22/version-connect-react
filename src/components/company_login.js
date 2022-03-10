@@ -4,6 +4,12 @@ import service from "../services/services"
 import Welcomenavbar from "./welcome_navbar";
 
 function CompanyLogin(){
+    function handleClicktt() {
+        history.push("/company/signup");
+      }
+      function handleClickyy() {
+        history.push("/company/login");
+      }
 
     let history = useHistory();
 
@@ -33,8 +39,8 @@ function CompanyLogin(){
             </div>
             <div className="form-wrapper">
             <div class="god">
-                <button class="button-129 button222" >Sign Up</button>
-                <button class="button-129 button228" >Log In</button>
+            <button class="button-999 button345" onClick={handleClicktt} >Sign Up</button>
+                <button class="button-999 button346" onClick={handleClickyy}>Log In</button>
                 </div>
             <form onSubmit={(e)=>{login(e)}}>
             <div className="email">

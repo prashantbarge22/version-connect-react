@@ -40,7 +40,7 @@ function Farmer_SignUp_Page(){
     }
 
     return(<>
-        <Welcomenavbar/>
+        
         <div className="huhu">
         <div class="blk">
             <p class="bnm">Vision Upkaran</p>

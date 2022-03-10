@@ -32,3 +32,9 @@ exports.registerItems = (data)=>{
 exports.contactUs =(data)=>{
    return axios.post("contact-us",data);
 }
+exports.Categories =(data)=>{
+   return axios.get("getCategories");
+}
+exports.itemByCategory =(data)=>{
+   return axios.post("getItemByCategory",data);
+} 
