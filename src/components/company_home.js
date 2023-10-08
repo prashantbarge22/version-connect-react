@@ -69,7 +69,7 @@ function CompanyHome(){
             
             <div className="advertisment-45">
             <div >
-               {categories.map(result=>{
+               {categories?.map(result=>{
                    return(
                    <div class="column-88">
                    <div class="card-89" style={{width:"25%" }}>

@@ -1,31 +1,23 @@
-body,html {
-    
-    box-sizing: border-box;
-    
+body, html {
     
     margin-top: 0pt;
     height: 100%;
   }
- 
-  
 .back{
     
     
         width: 100%;
-        background-color:  #f1f1f1;;
+        
         position: absolute;
         overflow: hidden;
-       
-
-        background-image: url("https://i.pinimg.com/564x/88/1e/f1/881ef164906b662421fcc29249a9e0fc.jpg");
-        
+        background-image: url("C:\Users\soumya.jha\Desktop\vision upkaran\version-connect-react\src\hjjjj.png");
        border-image-width: initial;
          background-repeat:no-repeat ;
         height: 100%;
         position: absolute;
-        background-size: cover;
-        
-       
+        background-size:100vh;
+        background-position :right 10% bottom 45%;
+        background-size: 512px 512px;
 }
 .advertisment-12{
     display: flex;
@@ -50,7 +42,7 @@ body,html {
     position: absolute;
     top:20vh;
     background-color: brown;
-    width:40%;
+    width:50%;
     height:auto;
     font-family:'Bahnschrift Condensed';
     left:80vh;
@@ -82,32 +74,21 @@ body,html {
     }
 }
 .boxx2{
-    width:49%;
+    width:auto;
     height:auto;
     
-  
+    color:rgb(0, 0, 0);
+    font-size:10em;
+    font-weight: 500;
+    line-height:130px;
     position:absolute;
     top:250px;
     left:100px;
     overflow:hidden;
-   
+    font-style: monsterrat;
 
 }
 .text{
-    font-size: 2cm;
-    font-style: abel;
-    font-style:abel ;
-    color:rgb(0, 0, 0);
-    font-size:10em;
-    font-weight: 400;
-    line-height:140px;
-    position: relative;
-    left:-100%;
-    animation: anim3 1s forwards 1.5s;
-    
-}
-.text78{
-    font-size: 1cm;
     position: relative;
     left:-100%;
     animation: anim3 1s forwards 1.5s;
@@ -128,4 +109,3 @@ body,html {
     font-size:15px;
     text-align: center;
 }
-    

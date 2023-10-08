@@ -15,11 +15,11 @@ function FarmerHome(){
     const[categories, setCategories ] = useState([]);
     
     useEffect(() => {
-      services.Categories().then(result=>{
-         console.log(result.data)
-         setCategories(result.data);
+      services.Categories().then(results =>{
+         console.log(results.data,"results")
+         setCategories(results.data);
         })
-        console.log("hello a")
+        //console.log("hello a")
       
     },[]);
     return(
@@ -67,7 +67,7 @@ function FarmerHome(){
             </div>
             <div className="advertisment-12">
             <div >
-               {categories.map(result=>{
+               {categories?.map(result=>{
                    return(
                    <div class="column-88">
                    <div class="card-89" style={{width:"25%" }}>
