@@ -14,7 +14,7 @@ return (
 	<h1 style={{ color: "green",
 				textAlign: "center",
 				marginTop: "-50px" }}>
-		VISION UPKARAN
+		SiGx
 	</h1>
 	<Container>
 		<Row>

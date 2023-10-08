@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:burlywood;
+    background-color:#f5b338;
   }
   
   .form-wrapper-9 {
@@ -125,4 +125,23 @@
 }
 .terms{
   padding-top: 30px;
+}
+.button-998 {
+  background-color:white;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width:48%;
+  font-size: 16px;
+  margin: 4px 2px;
+  float:left;
+  font-weight: bold;
+  font-size: 6mm;
+  display:flex
+  
+}
+.button341{
+  background-color: rgb(247, 247, 247);
 }

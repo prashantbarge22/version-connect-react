@@ -3,7 +3,13 @@
     height: 400px;
     width: auto;
 }
-
+.card-89{
+    
+    margin: 30px;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+    height: 50%;
+}
 
 .w-10{
     width: 100%;
@@ -11,8 +17,9 @@
 }
 
 .advertisment-45{
-    display: flex;
-    height: 66vh;
+    
+    height: 100vh;
+    background-color: azure;
 }
 
 .card-45{
@@ -25,3 +32,11 @@
     height: 30vh;
     width:40vh;
 }
+.column-88{
+    float:left;
+    width: 23%;
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 5mm;
+    
+  }

@@ -1,0 +1,26 @@
+
+
+.chris{
+    text-align:center;
+    width: 100%;
+    background-color:  #f1f1f1;;
+    position: absolute;
+    overflow: hidden;
+    
+   border-image-width: initial;
+     background-repeat:no-repeat ;
+    height: 100%;
+    position: absolute;
+    background-size: 800px 600px;
+    background-position :right 10% bottom 45%;
+   
+    
+    
+    
+    
+    /* background-image: url("C:\Users\soumy\Desktop\alumini\version-connect-react\src\assests\patners.png"); */
+    background-position: center;
+    background-size: cover;
+    
+
+}

@@ -7,7 +7,7 @@ function Navbar(){
     history.push("/");
   }
     return(
-        <div className="">
+        <div className="navbar">
            <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand brand-name" href="#" onClick={handleClickw}>VISION-UPKARAN</a>

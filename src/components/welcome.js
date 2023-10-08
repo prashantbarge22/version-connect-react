@@ -22,18 +22,9 @@ function Welcome(){
                 </div>
 
             </div>
-           
-
             </div>
+            </div>
+            )
+            }
 
-
-        </div>
-       
-       
-     
-        
-        
-    )
-}
-
-export default Welcome;
+            export default Welcome;

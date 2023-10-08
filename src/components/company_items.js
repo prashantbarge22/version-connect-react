@@ -39,45 +39,65 @@ function CompanyItems () {
        })
     }
     return (
-        
-        <div class="bg-img">
-              <div className = "ibox-double">
+        <div className="wrapper-9">
+        <div class="blp">
+       <p class="bnm">Vision Upkaran</p>
+       <p class="man">For Companies</p>
+       <p>Rent out machinary and tools.</p>
+       </div>
+     
+           
+           <form className="form-wrapper-9" onSubmit={(props)=>{onSubmit(props)}}>
+           <div class="god">
+           <h2  >Item Detail</h2>
+           
+           </div>
+           
+           <div >
+                <label htmlfor="title">Title</label>
+                        <input type="text" className="title" id="title" name="title" placeholder="Title"/>
+                </div>
+           <div className="category">
+           <label htmlfor="category">Category</label>
+                   <input type="category"  id="category" name="category" placeholder="Category"/>
+           </div>
+           
                
-              <form className="form" onSubmit={(props)=>{onSubmit(props)}}>
-                <div className = "itm">
-                    ITEM DETAILS
-                    </div>
-                <div className="mb-3">
-                        
-                        <input type="text" className="form-control" id="title" name="title" placeholder="Title"/>
+        
+               
+              
+                
+               
+                <div >
+                <label htmlfor="duration">Duration</label>
+                        <input type="numberr" className="duration" id="duration" name="duration" placeholder="Duration"/>
                 </div>
-                <div className="mb-3">
-                        <input type="text" className="form-control" id="category" name="category" placeholder="Item Category"/>
+                <div>
+                <label htmlfor="discounted_amount">Discounted-Amount</label>
+                        <input type="number" className="discounted_amount" id="discounted-amount" name="discounted_amount" placeholder="Discounted-amount"/>
                 </div>
-                <div className="mb-3">
-                        <input type="number" className="form-control" id="duration" name="duration" placeholder="Duration"/>
+                <div >
+                <label htmlfor="actual_amount">Actual Amount</label>
+                        <input type="number" className="actual_amount" id="actual-amount" name="actual_amount" placeholder="Actual-amount"/>
                 </div>
-                <div className="mb-3">
-                        <input type="number" className="form-control" id="discounted-amount" name="discounted_amount" placeholder="Discounted-amount"/>
+                <div >
+                <label htmlfor="max_time">Maximum Time</label>
+                        <input type="number" className="max_time" id="max-time" name="max_time" placeholder="Maximum-time"/>
                 </div>
-                <div className="mb-3">
-                        <input type="number" className="form-control" id="actual-amount" name="actual_amount" placeholder="Actual-amount"/>
-                </div>
-                <div className="mb-3">
-                        <input type="number" className="form-control" id="max-time" name="max_time" placeholder="Maximum-time"/>
-                </div>
-                <div className="mb-3">
+                <div >
+                <label htmlfor="choose_file">Choose File</label>
                              <input id="inputGroupFile01" type="file" id="filename" name="filename" className="custom-file-input" />
-                              <label className="custom-file-label" htmlfor="inputGroupFile01">Choose file</label>
+                              
                 </div>
-                <div className="mb-3">
-                        <input type="text" className="form-control" id="description" name="description" placeholder="Description"/>
+                <div >
+                <label htmlfor="description">Description</label>
+                        <input type="description" className="description" id="description" name="description" placeholder="Description"/>
                 </div>
 
                 <button type="submit" id="submit"className="btn btn-primary">Submit</button>
             </form>
             </div>
-            </div>
+            
             
             
            

@@ -7,7 +7,6 @@ import {BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-
 import Welcome from "./components/welcome"
 import FarmerLogin from "./components/farmer_login"
 import FarmerHome from "./components/farmer_home"
@@ -18,7 +17,12 @@ import AboutUs from "./components/about_us";
 import ContactUs from "./components/contact_us";
 import Login from "./components/login";
 import SignUp from "./components/signup";
-import Store from "./components/store";
+
+
+import Patnership from "./components/patner";
+
+
+
 
 
 ReactDOM.render(
@@ -34,9 +38,14 @@ ReactDOM.render(
       <Route path="/company/signup" exact>
         <CompanySignUp></CompanySignUp>
       </Route>
-
       <Route path="/companyty" exact>
         <CompanyItems></CompanyItems>
+      </Route>
+
+      
+      
+      <Route path="/patner" exact>
+        <Patnership></Patnership>
       </Route>
       
       <Route path="/company" exact>
@@ -54,9 +63,8 @@ ReactDOM.render(
       <Route path="/signup" exact>
        <SignUp></SignUp>
       </Route>
-      <Route path="/store" exact>
-       <Store></Store>
-      </Route>
+      
+      
     
       <Route path="/farmer/login" exact>
        <FarmerLogin></FarmerLogin>

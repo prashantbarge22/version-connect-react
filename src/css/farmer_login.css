@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:burlywood
+    background-color:#f5b338;
   }
   .button-129 {
     background-color:white;
@@ -104,6 +104,7 @@
     text-align: center;
 }
 .bnm{
+  color:black;
     font-size: 1cm;
     font-weight: bold;
 }

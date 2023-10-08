@@ -1,38 +1,150 @@
-*{
-    padding: 0px;
-    margin: 2px; 
-     
-   }
-   .bg-img{
-    background-image:url("https://cdn.pixabay.com/photo/2015/05/28/08/01/paper-787650_960_720.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.wrapper-9 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#f5b338;
+  }
+  
+  .form-wrapper-9 {
     position: relative;
-}
-
-
-.itm{
+  
+   
+    background-color:white;
+    margin-top:1cm;
+    
+    border-radius: 6px;
+    box-shadow: 0px 10px 50px #555;
+    text-align: left;
+   
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    
+    
+    
+    background-color: #ffffff;
+    font-weight:bolder;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
     text-align: center;
-    font-style: montserrat;
-    font-size: 2cm;
+    width: 100%;
+    color: #111;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  label {
+    font-size: 1em;
+    margin-bottom: 0.25em;
+    color: rgb(5, 1, 1);
+    font-weight:lighter;
+  
+  }
+  
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline-color: white;
+   
+  }
+  
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
     
-    
+  }
+  .custom-file-input,
+  .category,
+  .title,
+  .duration,
+  .max_time,
+  .actual_amount,
+  .discounted_amount,
+  .description,
+  .password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
 }
+.custom-file-input,
+  .category,
+  .title,
+  .duration,
+  .max_time,
+  .actual_amount,
+  .discounted_amount,
+  .description,
+  .password {
+    width: 100%;
+  }
+  
+  .createAccount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .createAccount button {
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+  
 
-
-.ibox-double{
-    
-    background-color:rgb(211, 207, 205);
-    position: relative;
-    top: 40px; left: 30%;
-    width: 90vh;
-    height: 90vh;
-    
-}
-.form-control{
+  .blp-9{
+    padding-top: 30px;
     text-align: center;
-    width: -45px;
-    
+}
+.bnm{
+    font-size: 1cm;
+    font-weight: bold;
+}
+.man{
+    font-size:7mm;
+    font-weight:bold;
+}
+.terms{
+  padding-top: 30px;
+}
+.button-998 {
+  background-color:white;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width:48%;
+  font-size: 16px;
+  margin: 4px 2px;
+  float:left;
+  font-weight: bold;
+  font-size: 6mm;
+  display:flex
+  
+}
+.button341{
+  background-color: rgb(247, 247, 247);
+}
+.god{
+    text-align: center;
 }
